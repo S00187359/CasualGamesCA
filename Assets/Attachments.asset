@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8363c476aeb778b439e74adcefb84de7, type: 3}
+  m_Name: Attachments
+  m_EditorClassIdentifier: 
+  CharacterAttachments:
+  - ID: arm
+    bone: 16
+    prefab: {fileID: 919132149155446097, guid: 42e5b3038f329764caf90843198cbe5d, type: 3}
+    icon: {fileID: 21300000, guid: c8f30b88ec3e6c34c9c8ac7e432a37ca, type: 3}
+    materialColor: {r: 0, g: 0.627451, b: 0.65882355, a: 1}
+    texture: {fileID: 2100000, guid: c487f98cfd4a7964ca6549bfad4e06d7, type: 2}
+  - ID: head
+    bone: 10
+    prefab: {fileID: 919132149155446097, guid: 5c8c23e707bfc2d4b838a2898dbf2e95, type: 3}
+    icon: {fileID: 21300000, guid: cb5c10112d0ff5c41be6a8561539a7eb, type: 3}
+    materialColor: {r: 0, g: 0.627451, b: 0.65882355, a: 1}
+    texture: {fileID: 2100000, guid: c487f98cfd4a7964ca6549bfad4e06d7, type: 2}
+  - ID: chest
+    bone: 8
+    prefab: {fileID: 919132149155446097, guid: 8f927190257813c46831dc3186c85143, type: 3}
+    icon: {fileID: 21300000, guid: b17a9e80bcb12f347829e46d563e90a1, type: 3}
+    materialColor: {r: 0, g: 0.6290298, b: 0.6603774, a: 1}
+    texture: {fileID: 2100000, guid: c487f98cfd4a7964ca6549bfad4e06d7, type: 2}
