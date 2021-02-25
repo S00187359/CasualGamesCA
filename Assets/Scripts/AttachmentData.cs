@@ -4,12 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class AttachmentData
+[CreateAssetMenu(fileName = "AttachmentData", menuName = "Attachments/Data")]
+public class AttachmentData : ScriptableObject
 {
     public string ID;
     public HumanBodyBones bone;
     public GameObject prefab;
     public Sprite icon;
     public Color materialColor;
-    public Material texture;
+    public Texture texture;
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 
 [Serializable]
 
-[CreateAssetMenu(fileName = "Attachments", menuName = "CharacterAttachments/AttachmentList")]
+[CreateAssetMenu(fileName = "Attachments", menuName = "AttachmentList")]
 public class Attachments : ScriptableObject
 {
     public List<AttachmentData> CharacterAttachments = new List<AttachmentData>();
